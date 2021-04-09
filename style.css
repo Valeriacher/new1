@@ -1,0 +1,76 @@
+body{
+    background-color:#f8f8f8
+    }
+    .first{
+        color: rgb(63, 54, 50);
+        font-style: oblique;
+    }
+    .glav{
+        text-decoration: none;
+        color: rgb(90, 44, 197);
+        font-family: initial;
+    }
+    .kontakti{
+        text-decoration: none;
+        color: rgb(90, 117, 72);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .katalog{
+        text-decoration: none;
+        color: rgb(168, 87, 91);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .opis{
+        
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: lightslategray;
+    }
+    .cvet{
+        background-color: #eaeaea ;
+    }
+    .dr{
+        color: #707070;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 16px;
+    }
+    .pd{
+        color:#484343;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper {
+        min-height: 10%;
+        position: relative;
+    }
+    .content {
+        padding-bottom: 0px;
+    }
+    .footer {
+        height: 0px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
