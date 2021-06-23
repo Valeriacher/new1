@@ -7,43 +7,55 @@
 </head>
 
 <body>
-   
+    <header>
+        <h1><center>VALMOT</center></h1>
+        <hr>
+    <div class="header">
+        <a><img src="logo.png"width="100px" height="70px"></a>
+        <h2 class="menu"> Меню 
+            <li><a href="index.html" class="glav">Главная</a></li>
+            <li><a href="katalog.html" class="katalog">Каталог</a></li>
+            <li><a href="cont.html" class="kontakti">Контакты</a></h2></li>
+        </div>
+        </header>
+        <hr> 
     <h1><center>Контакты</center></h1>
-<hr>
-    
-<a href="index.html" class="glav">Главная</a>
-<a href="katalog.html" class="katalog">Каталог</a>
-<a href="cont.html" class="kontakti">Контакты</a>
-    
 
-    <h1>Вся информация о нас:</h1>
-    <table border="1" cellpadding="10px" style="background-color: rgb(235, 227, 217);">
+    
+    
+    <h2>Заполнение заявки</h2>
+
+ <form action="URL">
+ <fieldset>
+    <div><input type="text" class='txt' size="30" name="name" placeholder="Ваше Имя"></div> 
+    <div><input type="email" size="30" placeholder="Email"></div>
+    <div><input type="text" size="30" placeholder="Ваш номер телефона"></div>
+    <div><input type="text" size="30" placeholder="Ваше сообщение"></div>
+   
+    <input type="button" value="отправить">
+    </fieldset>
+    </form>
+
+<h3>Вся информация о нас:</h3>
+    <table border="1" cellpadding="10px" style="background-color: rgb(228, 201, 236);">
     <tr><td>Адрес магазина:</td> <td>г.Москва</td></tr>
     <tr><td>Контактный номер телефона интернет-магазина:</td> <td>77-77-77</td></tr>
     <tr><td>E-mail магазина:</td> <td><a href="#"> valmot.ru</a></td></tr>
     <tr><td>График работы:</td> <td> С 12:00 до 00:00</td></tr>
     </table>
-    <div id="inline">
-    <h2>Заполнение заявки</h2>
-    <form id="contact" action="#" method="post" name="contact">
-    <input id="name" class="txt" name="name" type="name" placeholder="Ваше имя">
-    <input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон"> 
-    <input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"> 
-    <textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea><button id="send">Отправить</button></form></div>
+   
+  
     
-    <div class="wrapper">
-        <div class="header">
-        </div>
-        <div class="content"></div>
-        </div>
-        <div class="footer">
-        </div>
-        </div>
-        <hr>
+    
+        
 
-    <footer>
-        <hr>
-        <p><center>&copy; Все права защищены</center></p>
-    </footer>
-</body>
-</html>
+        <div class=footer>
+            <footer>
+                <hr>
+                <div class=text>
+                    <p>© «Все права защищены»</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+    </html>    

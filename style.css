@@ -1,34 +1,44 @@
+html
+{
+    position: relative;
+    min-height: 130%;
+}
 body{
-    background-color:#f8f8f8
-    }
-    .first{
-        color: rgb(63, 54, 50);
-        font-style: oblique;
-    }
-    .glav{
-        text-decoration: none;
-        color: rgb(90, 44, 197);
-        font-family: initial;
-    }
+    background-color:#f8f8f8;
+    margin-bottom: 80px;
+}
+
+    li{
+    color:#460340;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 1000;
+    
+}
     .kontakti{
-        text-decoration: none;
-        color: rgb(90, 117, 72);
+        text-decoration: underline              ;
+        color: rgb(134, 98, 216);
         font-family: 'Times New Roman', Times, serif;
     }
     .katalog{
-        text-decoration: none;
-        color: rgb(168, 87, 91);
-        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        color:  rgb(134, 98, 216);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .glav{
+        text-decoration: underline;
+        color:  rgb(134, 98, 216);
+        font-family: 'Times New Roman', Times, serif;
     }
     .opis{
         
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 300;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        color: lightslategray;
     }
     .cvet{
-        background-color: #eaeaea ;
+        background-color: #ccd0f7 ;
     }
     .dr{
         color: #707070;
@@ -44,16 +54,106 @@ body{
         text-align: left;
     }
     
+    .button 
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+
+} 
+
+
+    #inline {
+        margin-left:30px;
+        width:80%;
+        margin:0 auto;
+        background:rgb(255, 255, 255);
+        padding:10px 20px;
+     }
+     
+     #send { 
+         color:#FFFFFF;
+         display:block;
+         cursor:pointer;
+         padding:5px 11px;
+         font-size:1.2em;
+         border:solid 1px #F9F9F9;
+         border-radius:2px;
+         background:#4b11d3;
+         width:210px;
+         margin-bottom:20px;
+     }
+     #send:hover {
+         background:hsl(0, 100%, 99%);
+     }
+     
     
+     input[type=text]{
+        width: 400px;
+        height: 30px;
+        color: #8370e4;
+        font-family: 'Segoe Print';
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+      input[type=email]{
+        width: 400px;
+        height: 30px;
+        color: #da2df1;
+        font-family: 'Segoe Print';
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #010c0b;
+      }
+      
+     
+
+
+   
+    .header{
+        margin: auto;
+    }
+       
+    .text{
+        color: #31033a;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 16px;
+    }
+    .krat{
+        color:#484343;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
+    .menu{
+        color: rgb(99, 2, 163);
+        margin: 0;
+        padding: 0; 
+    display: block;   
+    margin-right: 2%;
+}
+
+
+table
+{
+    border:1px solid #000;
+    border-collapse: collapse;
+    width: 700px;
+    height: 100px;
+}
+td
+{
+    border: 1px solid #000
+}
+
+ 
     
     
     html, body {
@@ -68,9 +168,61 @@ body{
     .content {
         padding-bottom: 0px;
     }
-    .footer {
-        height: 0px;
+ 
+    .f1
+    {
+        grid-area: first;
+    }
+    .f2
+    {
+        grid-area: second;
+    }
+    .f3
+    {
+        grid-area: third;
+    }
+    .katalog2
+    {
+        display: grid;
+        grid-template-areas:
+        'first second third';
+    }
+
+
+    .footer
+    {
+        height: 80px;
+        background:#ece1f3;
         position: absolute;
         bottom: 0;
         width: 100%;
     }
+    .footer .text
+{
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+    input{
+        text-transform: capitalize;  
+      }
+
+     menu a{
+        text-decoration: none;
+       
+    }
+    a:hover{
+        color: rgb(32, 1, 36);
+    }
+    .header{
+        margin: auto;
+    }
+    ul{
+        list-style: none; 
+      margin: 0; 
+      padding-left: 0; 
+    }
+
+
+    
